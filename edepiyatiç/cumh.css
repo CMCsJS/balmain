@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(255, 228, 174);
+}
+
+
+img {
+    width: 150%;
+    height: 150%;
+    padding-bottom: 50px;
+}
+
+
+
+#a1 {
+    position: absolute;
+    top: 100px;
+    left: 280px;
+}
+
+#a1:hover {
+    border: 10px dodgerblue double;
+    position: absolute;
+    top: 90px;
+    left: 270px;
+}
+
+#resa1:hover {
+    border: 10px dodgerblue double;
+    position: absolute;
+    top: 90px;
+    left: 270px;
+}
+
+#a2 {
+    position: absolute;
+    top: 100px;
+    left: 396px;
+}
+
+#a3 {
+    position: absolute;
+    top: 100px;
+    left: 507px;
+    width: 1500px;
+}
+
+#img3 {
+    width: 1289px;
+    height: 295px;
+}
+
+#a4 {
+    position: absolute;
+    top: 393px;
+    left: 280px;
+}
+
+#a5 {
+    position: absolute;
+    top: 393px;
+    left: 396px;
+}
+
+#a6 {
+    position: absolute;
+    top: 393px;
+    left: 505px;
+}
+
+#a7 {
+    position: absolute;
+    top: 393px;
+    left: 670px;
+}
+
+#a8 {
+    position: absolute;
+    top: 393px;
+    left: 784px;
+}
+
+#a9 {
+    position: absolute;
+    top: 393px;
+    left: 883px;
+}
+
+#a10 {
+    position: absolute;
+    top: 393px;
+    left: 987px;
+}
+
+#a12 {
+    position: absolute;
+    top: 393px;
+    left: 1180px;
+}
+
+#a11 {
+    position: absolute;
+    top: 393px;
+    left: 1112px;
+}
+
+#a13 {
+    position: absolute;
+    top: 393px;
+    left: 1330px;
+}
+
+#a14 {
+    position: absolute;
+    top: 393px;
+    left: 1465px;
+}
+
+#a15 {
+    position: absolute;
+    top: 393px;
+    left: 1637px;
+}

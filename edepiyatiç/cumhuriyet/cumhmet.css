@@ -1,0 +1,19 @@
+body {
+    background-color: bisque;
+
+}
+
+p {
+    color: rgb(0, 0, 0);
+    background-color: cornsilk;
+    position: absolute;
+    width: 1200px;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times;
+    padding: 2%;
+    border: 10px rosybrown ridge;
+    border-radius: 30px;
+}

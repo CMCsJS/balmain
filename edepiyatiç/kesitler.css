@@ -1,0 +1,22 @@
+body {
+   background-color: antiquewhite;
+}
+
+p {
+   background-color:antiquewhite ;
+   color: rgb(0, 0, 0);
+   font-size: 40px;
+   font-family: 'Times New Roman', Times;
+   margin: 20px 100px;
+   margin-top: 50px;
+   border-radius: 20pc;
+   padding: 5%;
+}
+
+table {
+   width: 1920px;
+}
+
+.si {
+   border: 20px dodgerblue solid;
+}

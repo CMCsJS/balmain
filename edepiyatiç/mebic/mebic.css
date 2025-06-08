@@ -1,0 +1,40 @@
+body {
+    background-color: bisque;
+}
+
+.sece {
+    position: relative;
+    max-width: 100%;
+    padding: 1%;
+    margin: 6%;
+    background-color: aliceblue;
+    border-radius: 50px;
+    border: 10px rgb(172, 148, 148) ridge;
+}
+
+.bass {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.par {
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    text-shadow: 0px 1px rgb(255, 0, 0),0px -1px rgb(0, 140, 255) ;
+}
+
+.yaz {
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    border: 10px ridge rgb(172, 148, 148) ;
+    border-top: none;
+    translate: 0 147%;
+    padding: 5px;
+    padding-top: 0;
+ 
+    background-color: aliceblue;
+    border-radius: 10px;
+}

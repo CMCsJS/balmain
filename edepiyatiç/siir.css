@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    opacity: 0, 5;
+}
+
+#şiir1 {
+    background-image: url(../doc/balşiir.pg);
+    background-color: rgb(0, 0, 0);
+    padding-right: 50px;
+    position: absolute;
+    top: 10%;
+    left: 38%;
+    padding: 15px 10px 50px 50px;
+    border: 10px aliceblue ridge ;
+    border-radius: 20px;
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+#baslık1 {
+    background-image: url(../doc/balşiir.pg);
+    position: absolute;
+    top: 12%;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    padding: 10px 10px 5px 25px;
+    left: 38%;
+}
+
+
+
+
+#geri {
+    font-size: 20px;
+    color: rgb(161, 211, 255);
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    text-decoration: wavy;
+}

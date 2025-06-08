@@ -1,0 +1,79 @@
+body {
+    background-color: antiquewhite
+}
+
+section {
+    position: relative;
+    top: 150px;
+    left: 50%;
+    translate: -50% 0;
+    width: 1400px;
+    height: 500px;
+    background-color: aliceblue;
+    padding: 50px;
+    border-radius: 30px;
+    border: 10px ridge dodgerblue;
+}
+
+.sir {
+    border-radius: 10px;
+    border: 10px ridge grey;
+    color: red;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: bisque;
+    font-size: 180%;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: wavy;
+}
+
+#gez1 {
+    top: 10%;
+    left: 10%;
+}
+#gez2 {
+    top: 10%;
+    left: 30%;
+}
+
+#gez3 {
+    top: 10%;
+    right: 30%;
+}
+
+#gez4 {
+    top: 10%;
+    right: 10%;
+}
+
+#gez5 {
+    top: 35%;
+    left: 10%;
+}
+
+#gez6 {
+    top: 35%;
+    left: 30%;
+}
+
+#gez7 {
+    top: 35%;
+    right: 30%;
+}
+
+#gez8 {
+    top: 35%;
+    right: 10%;
+}
+
+#gez9 {
+    top: 60%;
+    left: 30%;
+}
+
+#gez10 {
+    top: 60%;
+    right: 30%;
+}
