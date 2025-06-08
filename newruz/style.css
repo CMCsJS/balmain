@@ -1,0 +1,317 @@
+body {
+    background-color: antiquewhite;
+    padding: 0;
+    margin: 0;
+}
+
+#geri {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-decoration: wavy;
+    font-size: 20px;
+    align-content: center;
+    letter-spacing: normal;
+    border: 3px yellowgreen solid;
+    border-radius: 10%;
+    color: rgb(255, 174, 0);
+}
+
+header {
+    text-decoration: wavy;
+    background-color: rgb(217, 255, 0);
+    position: absolute;
+    width: 30%;
+    height: 55px;
+    align-content: top;
+    text-align:center;
+    padding-left: 5%s;
+    margin-left: 5%;
+    font-size: 45px;
+    letter-spacing: 20px;
+    font-family: Times;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    right: 0;
+    translate: 0%;
+    border-radius: 50px;
+    color: rgb(255, 0, 0);
+    z-index: 10;
+    opacity: 0.9;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.sec {
+    width: 100%;
+    height: 1080px;
+    background-color: antiquewhite;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    border-bottdom: 20px rgb(0, 119, 255) groove;
+}
+
+#sec1 {
+    background-image: url(./pag2/mucq.png);
+    background-size: 1920px;
+}
+
+.dive {
+    position: absolute;
+    width: 25%;
+    height: 85%;
+    background-color: rgb(0, 162, 255);
+    opacity: 1;
+}
+
+#dive1 {
+    border-bottom-right-radius: 50px;
+    border-right: 10px dodgerblue ridge;
+}
+
+#dive2 {
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 50px;
+    background-color: rgb(255, 34, 34);
+}
+
+p {
+    position: absolute;
+}
+
+#p1 {
+    position: absolute;
+    width: 24%;
+    height: 85%;
+    margin: 0;
+    padding: 0;
+    translate: 1.5% 20%;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#p2 {
+    position: absolute;
+    width: 25%;
+    height: 85%;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 22px;
+    margin-left: 2%;
+    translate: 2% 25%;
+    font-weight: bold;
+}
+
+#par1 {
+    position: absolute;
+    width: 25%;
+    height: 85%;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    right: 0;
+    border-top: 10px dodgerblue groove;
+    border-left: 10px dodgerblue groove;
+    border-top-left-radius: 50px;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+
+#par2 {
+    position: absolute;
+    width: 25%;
+    height: 85%;
+    border-right: 10px rgb(255, 30, 30) ridge;
+    border-bottom: 10px rgb(255, 30, 30) ridge;
+    border-bottom-right-radius: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+#sec2 {
+    margin-top: 5px;
+    height: 1080px;
+    position: relative;
+    border-bottom: 0;
+    border-top: 20px rgb(255, 174, 0) ridge;
+    background-image: url(./dodoc/2aaa.jpg);
+    background-size: 100%;
+}
+
+.diw {
+    height: 30%;
+    width: 40%;
+    border: 10px dodgerblue groove;
+    position: absolute;
+    border-radius: 100px;
+    background-color: rgb(184, 222, 255);
+}
+
+#diwe1 {
+    top: 1%;
+    left: 5%;
+    background-image: url(./pag2/nevruz-yemek.jpg);
+    background-size: 100%;
+}
+
+#diwe2 {
+    top: 1%;
+    right: 5%;
+    background-image: url(./pag2/nevruz-yemek.jpg0);
+    background-size: 100%;
+    opacity: 0.9;
+    font-weight: 999;
+}
+
+#diwe3 {
+    top: 50%;
+    left: 5%;
+    translate: 0 -50%;
+    background-color: rgb(184, 222, 255);
+    opacity: 0.6;
+    font-weight: 900;
+
+}
+
+#diwe4 {
+    top: 50%;
+    right: 5%;
+    translate: 0 -50%;
+    background-image: url(./pag2/nevruz-rituel-1024x5760.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#diwe5 {
+    bottom: 1%;
+    left: 5%;
+    background-image: url(./pag2/nuts-background-24309923.webp);
+}
+
+#diwe6 {
+    bottom: 1%;
+    right: 5%;
+    background-color: rgb(184, 222, 255);
+    opacity: 0.8;
+    font-weight: 900;
+}
+
+.diq {
+    position: absolute;
+    top: 0;
+    left: 0;
+    translate: 50% 50%;
+    font-size: 50px;
+    color: red;
+    font-family: 'Times New Roman', Times;
+}
+
+#diq2 {
+    font-family: 'Times New Roman', Times;
+    font-size: 150px;
+    translate: 400% 20%;
+}
+
+.pp2 {
+    translate: 5% 50%;
+    width: 90%;
+    font-size: 20px;
+}
+
+.pp21 {
+    width: 90%;
+    translate: 5% 40%;
+    font-weight: 400;
+}
+
+#pp22 {
+    translate: 5% 100%;
+    width: 80%;
+    font-size: 20px;
+}
+
+.diw0 {
+    height: 30%;
+    width: 40%;
+    border: 10px rgb(221, 0, 221) groove;
+    position: absolute;
+    border-radius: 100px;
+    background-color: rgb(226, 81, 178);
+}
+
+#sec3 {
+    background-color: aliceblue;
+    background-size: 1920px;
+    background-image: url(./istockphot.jpg);
+}
+
+#diwe10 {
+    top: 1%;
+    left: 5%;
+    background-image: url();
+    background-size: 100%;
+    font-size: 27px;
+    opacity: 0.7;
+    align-content: center;
+    text-align: center;
+    font-weight: 999;
+}
+
+#diwe20 {
+    top: 1%;
+    right: 5%;
+    background-image: url(./pag3/121799\,f20131634.jpeg);
+    background-size: 100%;
+    opacity: 0.9;
+    font-weight: 999;
+}
+
+#diwe30 {
+    top: 50%;
+    left: 5%;
+    translate: 0 -50%;
+    background-color: rgb(184, 222, 255);
+    font-weight: 900;
+    background-image: url(./pag3/65faabd50949a1f5cb72f369.webp);
+    background-size: 100%;
+}
+
+#diwe40 {
+    top: 50%;
+    right: 5%;
+    translate: 0 -50%;
+    background-size: 100%;
+    font-size: 27px;
+    opacity: 0.7;
+    align-content: center;
+    text-align: center;
+    font-weight: 999;
+}
+
+#diwe50 {
+    bottom: 1%;
+    left: 5%;
+    font-size: 23px;
+    opacity: 0.7;
+    align-content: space-around;
+    text-align: center;
+    font-weight: 999;
+
+}
+
+#diwe60 {
+    bottom: 1%;
+    right: 5%;
+    background-color: rgb(184, 222, 255);
+    opacity: 0.8;
+    font-weight: 900;
+    background-image: url(./pag3/river-1386348.jpg);
+    background-size: 100%;
+}

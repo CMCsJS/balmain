@@ -1,0 +1,11 @@
+#geri {
+    position: absolute;
+    top: 5%;
+    color: dodgerblue;
+    background-color: aliceblue;
+    border: 8px bisque groove;
+    border-radius: 20px;
+    font-size: 25px;
+    text-decoration: wavy   ;
+    padding: 0.5%;
+}
