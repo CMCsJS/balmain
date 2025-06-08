@@ -1,0 +1,90 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.head {
+    background-color: red;
+    position: relative;
+}
+
+.nav {
+    translate: -50% 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    left: 50%;
+    background-color: rgb(71, 71, 71);
+    position: relative;
+    color: rgb(255, 0, 0);
+    width: 500px;
+    height: 40px;
+}
+
+.logo {
+    position: absolute;
+    width: 40px;
+    left: 0;
+}
+
+.a {
+    color: rgb(255, 0, 0);
+    position: absolute;
+    font-size: 30px;
+    text-decoration: wavy;
+    margin-top: 1%;
+}
+
+#js {
+    left: 10%;
+}
+
+#a1 {
+    right: 40%;
+}
+
+#a2 {
+    right: 30%;
+}
+
+#a3 {
+    right: 20%;
+}
+
+#a4 {
+    right: 10%;
+}
+/*--------------------------------------------------*/
+.sec1 {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 10px black double;
+}
+
+.img0 {
+    position: absolute;
+    width: 50%;
+    left: 0;
+    top: 0;
+}
+
+.img1 {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    top: 0;
+}
+
+.img2 {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    bottom: 0;
+}
+
+.img3 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50%;
+}

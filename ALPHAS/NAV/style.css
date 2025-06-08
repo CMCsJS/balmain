@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+  
+}
+
+body{
+  height: 200%;
+}
+
+.nav_bar_container{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+ height: 100vh;
+  top: 0;
+  left: 0;
+width: 50px;
+height: 100vh;
+  transition: .2s ease;
+ background: #00BFFF;
+ overflow: hidden;
+ white-space: nowrap;
+ color: Blue;
+ box-shadow: 0px 0px 10px #00FFFF;
+}
+
+.nav_bar_container:hover{
+ width: 200px; 
+ overflow-y: scroll;
+}
+
+.nav_items{
+ font-size: 22px
+ ;
+  padding: 18px;
+}
+
+.nav_items:hover{
+  background: #FF1493;
+  transition: .5s ease;
+}
+
+.fa{
+  margin-right: 20px;
+  
+}

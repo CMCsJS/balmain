@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+/* Header kısmı */
+header {
+    background-color: #3498db; /* Ana başlık için canlı mavi */
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f39c12; /* Hoverda sarı ton */
+}
+
+/* Container düzeni */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main {
+    width: 70%;
+}
+
+article.post {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+article.post:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Hoverda kutu gölgesi artar */
+}
+
+article.post h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #2c3e50; /* Başlık rengi koyu gri */
+}
+
+.post-meta {
+    font-size: 0.9em;
+    color: #95a5a6;
+}
+
+.post-content {
+    font-size: 1.1em;
+    margin-top: 15px;
+    line-height: 1.8;
+    color: #7f8c8d;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #3498db;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.read-more:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Sidebar kısmı */
+aside {
+    width: 28%;
+}
+
+.sidebar {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #3498db;
+    transition: color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    color: #e67e22; /* Hoverda turuncu ton */
+}
+
+/* Form Alanı */
+.sidebar form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 1em;
+}
+
+.sidebar form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar form button:hover {
+    background-color: #2980b9;
+}
+
+/* Footer kısmı */
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1em;
+}
